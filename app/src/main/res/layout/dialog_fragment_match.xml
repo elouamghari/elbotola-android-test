@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/follow"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="24dp"
+            android:maxLines="1"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/team1Container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleTextView"
+            app:layout_constraintEnd_toStartOf="@id/team2Container">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/team1ImageView"
+                android:layout_width="82dp"
+                android:layout_height="82dp" />
+
+            <TextView
+                android:id="@+id/team1NameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                tools:text="Borussia Dortmund"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:maxLines="1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/team1FollowedImageView"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_star"
+                android:layout_marginTop="12dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/team2Container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleTextView"
+            app:layout_constraintStart_toEndOf="@id/team1Container">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/team2ImageView"
+                android:layout_width="82dp"
+                android:layout_height="82dp" />
+
+            <TextView
+                android:id="@+id/team2NameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                tools:text="Borussia Dortmund"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:maxLines="1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/team2FollowedImageView"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_star"
+                android:layout_marginTop="12dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

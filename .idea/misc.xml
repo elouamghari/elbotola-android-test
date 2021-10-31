@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/drawable/background_rounded_grey.xml" value="0.21851851851851853" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/drawable/ic_previous.xml" value="0.2703125" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/drawable/ic_star_blue.xml" value="0.17685185185185184" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/activity_main.xml" value="0.25025641025641027" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/dialog_fragment_match.xml" value="0.21296296296296297" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/fragment_calendar.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/fragment_followed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/item_calendar_competition.xml" value="0.24074074074074073" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/item_calendar_match.xml" value="0.264" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/item_favorite_team.xml" value="0.22685185185185186" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/layout/item_followed_team.xml" value="0.22685185185185186" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25025641025641027" />
+        <entry key="..\:/Android Studio Projects/Elbotola/ElbotolaTest/app/src/main/res/menu/search_options_menu.xml" value="0.36893203883495146" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

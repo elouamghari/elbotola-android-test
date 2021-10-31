@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Elbotola Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="follow">Follow</string>
+    <string name="live_matches">Live matches</string>
+    <string name="today">Today</string>
+    <string name="no_football_matches_for_this_date">No football matches for this date</string>
+    <string name="you_will_see_your_followed_teams_here">You will see your followed teams here</string>
+    <string name="calendar">Calendar</string>
+    <string name="followed_teams">Followed Teams</string>
+    <string name="search">Search</string>
+</resources>
