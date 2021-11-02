@@ -1,11 +1,3 @@
-## Introduction
-The coding challenge(s) below will be used to assess your familiarity with the Android
-development environment, relevant Android related frameworks and general coding best
-practices. There are no hard time limits, but we’re trying to keep the scope limited so we don’t
-occupy too much of your time. We will not use any of the results at Elbotola. Our aim is to have an
-efficient and fair assessment: you spend time solving the challenge, and we spend time giving
-you detailed feedback.
-
 The assessment consists of two pages:
 
 - Calendar Page to list the matches by date
