@@ -9,10 +9,6 @@ The assessment consists of two pages:
 ## Apk
 [<img src="https://miro.medium.com/max/1200/1*TedleCknFgFMFJgXTVjOFg.png" width="25"/>](./elbotola-android-test.apk)
 
-### Modules Required
-- Preferably Kotlin (otherwise JAVA)
-- No depenencies required, feel free to choose the stack you're confortable with
-
 ## Pages
 ### Calendar Page
 - List Matches by date, grouped by competition and ordered by time,
